@@ -1,0 +1,17 @@
+{
+  "name": "riser",
+  "version": "1.0.0",
+  "description": "Riser Theme",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "riser"
+  ],
+  "author": "Embreon",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  }
+}
