@@ -10607,6 +10607,66 @@ textarea.form-control-lg {
   background-color: #f8f9fa;
 }
 
+/* -------------------------------SOCIALS ICON SECTION----------------------------------------- */
+.social-icon-nav, .social-icon-mobile-nav {
+  position: fixed;
+  bottom: 0;
+  right: -1vw;
+  z-index: 10;
+}
+
+.social-icon-nav .social-list li, .social-icon-mobile-nav .social-list li {
+  padding: 0.5rem 0;
+}
+
+.social-icon-nav .social-list li a, .social-icon-mobile-nav .social-list li a {
+  margin: 0 1rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #000;
+}
+
+.social-icon-nav .social-list li a {
+  width: 4rem;
+  height: 4rem;
+}
+
+.social-icon-mobile-nav .social-list li a {
+  width: 3rem;
+  height: 3rem;
+}
+
+.social-icon-nav .social-list li a .fa {
+  line-height: calc(4rem - 12px);
+  font-size: 24px;
+}
+
+.social-icon-mobile-nav .social-list li a .fa {
+  line-height: calc(4rem - 2rem);
+  font-size: 1.5rem;
+}
+
+.fa:hover {
+  transition: 0.3s;
+}
+
+.fa-facebook:hover {
+  color: #4267b2;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-instagram:hover {
+  color: #c13584;
+}
+
+.fa-pinterest:hover {
+  color: #e60023;
+}
+
 /* ---------------------------------FOOTER SECTION-------------------------------------------- */
 .footer-link {
   color: #fff;
@@ -10639,6 +10699,11 @@ textarea.form-control-lg {
 
 .showcase a, .showcase p, .showcase button {
   z-index: 3;
+}
+
+.showcase .glass {
+  min-height: 50vh;
+  max-height: 50vh;
 }
 
 .showcase a {
