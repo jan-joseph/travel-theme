@@ -10558,6 +10558,13 @@ textarea.form-control-lg {
   margin-left: auto;
 }
 
+.glass {
+  background: rgba(255, 255, 255, 0.17);
+  box-sizing: border-box;
+  box-shadow: -2px 2px 0.5px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(20px);
+}
+
 /* ---------------------------------HEADER MENU-------------------------------------------- */
 .navbar-brand {
   margin-right: 0;
@@ -10634,13 +10641,6 @@ textarea.form-control-lg {
   z-index: 3;
 }
 
-.glass {
-  background: rgba(255, 255, 255, 0.17);
-  box-sizing: border-box;
-  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(20px);
-}
-
 .showcase a {
   text-decoration: none;
 }
@@ -10664,7 +10664,7 @@ textarea.form-control-lg {
 .category-thumbnail img {
   height: 250px;
   -webkit-transition: opacity 1s, -webkit-transform 1s;
-  transition: opacity 1s, transform 1s;
+  transition: opacity 1s, transform 2s;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -10693,7 +10693,6 @@ textarea.form-control-lg {
   border-bottom: 5px solid #f9aa33;
 }
 
-/* ---------------------------------ITINERARY SECTION-------------------------------------------- */
 /* ---------------------------------GALLERY SECTION-------------------------------------------- */
 .gallery {
   position: relative;
@@ -10716,7 +10715,7 @@ textarea.form-control-lg {
   margin-bottom: -52%;
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   transform: scale(1);
-  transition: all 0.25s;
+  transition: all 1s;
 }
 .gallery img:nth-child(7n+1) {
   grid-column: 2/span 2;
@@ -10728,17 +10727,16 @@ textarea.form-control-lg {
 
 /* ---------------------------------BLOG CARDS SECTION-------------------------------------------- */
 .index-blog-posts .card {
-  min-height: 40vh;
+  max-height: 50vh;
 }
 
 .card-thumbnail {
   -webkit-transition: opacity 1s, -webkit-transform 1s;
-  transition: opacity 1s, transform 1s;
+  transition: opacity 1s, transform 2s;
   overflow: hidden;
 }
 
 .card:hover .card-thumbnail {
-  transition: 0.8s;
   transform: scale3d(2, 2, 1) rotate(0deg);
 }
 
