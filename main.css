@@ -10611,7 +10611,7 @@ textarea.form-control-lg {
 .social-icon-nav, .social-icon-mobile-nav {
   position: fixed;
   bottom: 0;
-  right: -1vw;
+  right: 0vw;
   z-index: 10;
 }
 
