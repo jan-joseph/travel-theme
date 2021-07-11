@@ -10609,9 +10609,6 @@ textarea.form-control-lg {
 
 /* -------------------------------SOCIALS ICON SECTION----------------------------------------- */
 .social-icon-nav, .social-icon-mobile-nav {
-  position: fixed;
-  bottom: 0;
-  right: 0vw;
   z-index: 10;
 }
 
