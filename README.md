@@ -1,3 +1,3 @@
 # THEME
 ----------------
-[Site] (https://jan-joseph.github.io/travel-theme/)
+[Site](https://jan-joseph.github.io/travel-theme/)
