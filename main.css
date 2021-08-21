@@ -10621,7 +10621,6 @@ textarea.form-control-lg {
   padding: 0.5rem;
   box-sizing: border-box;
   text-decoration: none;
-  color: #000;
 }
 
 .social-icon-nav .social-list li a {
@@ -10879,8 +10878,12 @@ textarea.form-control-lg {
   min-height: 40vh;
 }
 
+.blog-content {
+  max-width: 50rem;
+}
+
 /* -------------------------------------------------------------------------------------------- */
-/* ------------------------------------- BLOG POSt -------------------------------------------- */
+/* ------------------------------------- BLOG POST -------------------------------------------- */
 /* -------------------------------------------------------------------------------------------- */
 .blog-post-showcase {
   background: url("https://cdn.pixabay.com/photo/2016/02/19/10/41/travel-1209355_960_720.jpg");
@@ -10891,7 +10894,40 @@ textarea.form-control-lg {
 }
 
 .blog-post-showcase .container {
-  min-height: 30vh;
+  height: calc(15vh+15vw);
+}
+
+.blog-navbar {
+  min-width: 12rem;
+}
+
+.blog-navbar a {
+  text-decoration: none;
+}
+
+.blog-navbar a:hover {
+  text-decoration: underline;
+}
+
+.blog-share-bar img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.blog-share-bar li a {
+  width: 4rem;
+  height: 4rem;
+}
+
+.blog-share-bar li a .fa {
+  line-height: calc(4rem - 12px);
+  font-size: 24px;
+  padding: 1rem 0;
+}
+
+.blog-share-bar li a .fa {
+  line-height: calc(4rem - 2rem);
+  font-size: 2rem;
 }
 
 /* --------------------------------------------------------------------------------------------- */
